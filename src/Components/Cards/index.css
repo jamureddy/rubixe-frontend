@@ -1,0 +1,122 @@
+.cards-section {
+  background-color: #e6e5e3 !important;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.cards-flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-heading {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.bg-container {
+  background-color: white;
+  border-radius: 25px;
+}
+
+.grad1 {
+  background-image: linear-gradient(white, #e6e5e3);
+}
+
+.grad2 {
+  background-image: linear-gradient(#e6e5e3, white);
+}
+
+.tourism-card {
+  text-align: center;
+  background-color: white;
+  padding: 5px;
+  height: 40px;
+}
+
+.tocard2 {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.tocard1 {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.cards-item-circle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  background: lightgrey;
+  font-weight: bold;
+  border: 1px solid lightgrey;
+  text-align: center;
+  font: 13px Arial, sans-serif;
+  position: absolute;
+  left: 40%;
+}
+
+.circle1 {
+  top: -0.1%;
+  font-weight: bolder;
+}
+
+.circle2 {
+  bottom: -4%;
+  font-weight: bolder;
+}
+
+.cir1 {
+  background-color: #213163;
+}
+
+.cir2 {
+  background-color: #a3187a;
+}
+
+.cir3 {
+  background-color: #d4742a;
+}
+
+.cir4 {
+  background-color: #1b5c15;
+}
+
+.cir5 {
+  background-color: #a88c25;
+}
+
+.paratext1 {
+  color: #213163;
+}
+
+.paratext2 {
+  color: #a3187a;
+}
+
+.paratext3 {
+  color: #d4742a;
+}
+
+.paratext4 {
+  color: #1b5c15;
+}
+
+.paratext5 {
+  color: #a88c25;
+}
+
+.innertext {
+  font-size: 90%;
+  font-weight: 600;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.card-image-container{
+  font-size: 50px;
+  text-align: center;
+}

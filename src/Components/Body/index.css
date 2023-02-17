@@ -1,0 +1,94 @@
+.font-montserrat {
+  font-family: "Open Sans", sans-serif !important;
+}
+.content-color {
+  color: #747474 !important;
+}
+.main-heading{
+  font-size: 20px;
+}
+.banner-section {
+  min-height: 70vh;
+  background-image: url("../../Assests/rubex2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.685);
+}
+.banner-heading{
+  font-size: 20px;
+}
+.banner-text-container {
+  padding-left: 10vw;
+  padding-top: 20vh;
+  padding-bottom: 50px;
+}
+.banner-image-left {
+  width: 200px;
+}
+.banner-text {
+  color: white;
+  font-weight: bold;
+}
+.about-us-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.rightBannerImage {
+  width: 70%;
+  float: right;
+}
+.rightBannerTopLine {
+  width: 50%;
+  height: 5px;
+  margin-bottom: 5px;
+  margin-left: 104px;
+  background-color: palevioletred;
+}
+.rightBannerBottomBox {
+  height: 70px;
+  width: 60%;
+  background-color: green;
+  opacity: 0.8;
+  float: right;
+  margin-top: -35px;
+}
+.about-us-section-below-section {
+  text-align: justify;
+  text-justify: inter-word;
+  color: white;
+  background-color: #d40696;
+  opacity: 0.8;
+}
+@media only screen and (max-width: 600px) {
+  .banner-section{
+    min-height: 20vh;
+  }
+  .about-us-section {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .about-us-section :nth-child(1) {
+    order: 2;
+  }
+  .rightBannerImage{
+    width: 100%;
+  }
+  .rightBannerTopLine{
+    margin-left: 0;
+    float: left;
+  }
+  .banner-heading{
+    font-size: 15px;
+  }
+  .banner-image-left{
+    width: 200px;
+  }
+}
